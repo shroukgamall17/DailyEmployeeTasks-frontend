@@ -6,6 +6,8 @@ export interface Task {
   end_time: string;
   date: string;
   total_hours: string;
+  remaining_hours: string;
+  employee_name: string;
 }
 
 export interface TasksState {
